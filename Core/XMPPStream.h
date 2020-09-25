@@ -407,7 +407,7 @@ extern const NSTimeInterval XMPPStreamTimeoutNone;
 /**
  * Expose this method in Swift
  */
-- (void)setIsSecure:(BOOL)flag
+- (void)setIsSecure:(BOOL)flag;
 
 /**
  * Returns whether or not the server supports securing the connection via SSL/TLS.
